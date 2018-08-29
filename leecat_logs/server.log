@@ -1,0 +1,78 @@
+2018-08-28 22:32:22[ INFO ]服务器启动8086
+2018-08-28 22:38:52[ INFO ]服务器启动${server.getPort()}
+2018-08-28 23:31:58[ INFO ]服务器启动10086
+2018-08-28 23:32:08[ INFO ]建立连接：/127.0.0.1
+2018-08-28 23:34:15[ INFO ]服务器启动10086
+2018-08-28 23:34:19[ INFO ]建立连接：/127.0.0.1
+2018-08-28 23:34:19[ INFO ]GET / HTTP/1.1
+Host: 127.0.0.1:10086
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+
+
+2018-08-29 12:24:46[ INFO ]服务器启动10086
+2018-08-29 12:25:13[ INFO ]服务器启动10086
+2018-08-29 12:58:05[ INFO ]服务器启动10086
+2018-08-29 12:58:38[ INFO ]建立连接：/127.0.0.1
+2018-08-29 12:59:47[ INFO ]服务器启动10086
+2018-08-29 12:59:47[ INFO ]建立连接：/127.0.0.1
+2018-08-29 12:59:47[ INFO ]GET /?name=listen&passwd=123456 HTTP/1.1
+{Accept= text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8, Upgrade-Insecure-Requests= 1, User-Agent= Mozilla/5.0 (X11; Linux x86_64; rv, Connection= keep-alive, Host= 127.0.0.1, Accept-Language= zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2, Accept-Encoding= gzip, deflate}
+null
+2018-08-29 13:02:54[ INFO ]服务器启动10086
+2018-08-29 13:02:58[ INFO ]建立连接：/127.0.0.1
+2018-08-29 13:02:58[ INFO ]name=listen&passwd=123456
+2018-08-29 13:02:58[ INFO ]GET /?name=listen&passwd=123456 HTTP/1.1
+{Accept= text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8, Upgrade-Insecure-Requests= 1, User-Agent= Mozilla/5.0 (X11; Linux x86_64; rv, Connection= keep-alive, Host= 127.0.0.1, Accept-Language= zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2, Accept-Encoding= gzip, deflate}
+null
+2018-08-29 13:07:23[ INFO ]服务器启动10086
+2018-08-29 13:07:25[ INFO ]建立连接：/127.0.0.1
+2018-08-29 13:07:25[ DEBUG ]name=listen&passwd=123456
+2018-08-29 13:07:25[ DEBUG ]name:listen
+2018-08-29 13:07:25[ DEBUG ]passwd:123456
+2018-08-29 13:07:25[ INFO ]GET /?name=listen&passwd=123456 HTTP/1.1
+{Accept= text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8, Upgrade-Insecure-Requests= 1, User-Agent= Mozilla/5.0 (X11; Linux x86_64; rv, Connection= keep-alive, Host= 127.0.0.1, Accept-Language= zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2, Accept-Encoding= gzip, deflate}
+null
+2018-08-29 13:12:43[ INFO ]服务器启动10086
+2018-08-29 13:12:46[ INFO ]建立连接：/127.0.0.1
+2018-08-29 13:12:46[ DEBUG ]name=listen&passwd=123456
+2018-08-29 13:12:46[ INFO ]GET /?name=listen&passwd=123456 HTTP/1.1
+{Accept= text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8, Upgrade-Insecure-Requests= 1, User-Agent= Mozilla/5.0 (X11; Linux x86_64; rv, Connection= keep-alive, Host= 127.0.0.1, Accept-Language= zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2, Accept-Encoding= gzip, deflate}
+{passwd=123456, name=listen}
+2018-08-29 13:15:21[ INFO ]服务器启动10086
+2018-08-29 13:15:22[ INFO ]建立连接：/127.0.0.1
+2018-08-29 13:15:22[ INFO ]GET /?name=listen&passwd=123456 HTTP/1.1
+{Accept= text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8, Upgrade-Insecure-Requests= 1, User-Agent= Mozilla/5.0 (X11; Linux x86_64; rv, Connection= keep-alive, Host= 127.0.0.1, Accept-Language= zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2, Accept-Encoding= gzip, deflate}
+{passwd=123456, name=listen}
+2018-08-29 16:44:27[ INFO ]建立连接：/127.0.0.1
+2018-08-29 16:45:34[ INFO ]建立连接：/127.0.0.1
+2018-08-29 16:46:18[ INFO ]服务器启动10086
+2018-08-29 16:46:20[ INFO ]建立连接：/127.0.0.1
+2018-08-29 16:46:20[ INFO ]GET / HTTP/1.1
+{Accept= text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8, Upgrade-Insecure-Requests= 1, User-Agent= Mozilla/5.0 (X11; Linux x86_64; rv, Connection= keep-alive, Host= 127.0.0.1, Accept-Language= zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2, Accept-Encoding= gzip, deflate}
+2018-08-29 16:46:29[ INFO ]服务器启动10086
+2018-08-29 16:46:31[ INFO ]建立连接：/127.0.0.1
+2018-08-29 16:48:11[ INFO ]服务器启动10086
+2018-08-29 16:48:12[ INFO ]建立连接：/127.0.0.1
+2018-08-29 16:48:12[ INFO ]GET / HTTP/1.1
+{Accept= text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8, Upgrade-Insecure-Requests= 1, User-Agent= Mozilla/5.0 (X11; Linux x86_64; rv, Connection= keep-alive, Host= 127.0.0.1, Accept-Language= zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2, Accept-Encoding= gzip, deflate}
+
+2018-08-29 20:27:25[ INFO ]服务器启动10086
+2018-08-29 20:28:26[ INFO ]建立连接：/127.0.0.1
+2018-08-29 20:28:26[ INFO ]GET /?name=listen&password=pwd HTTP/1.1
+{Accept= text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8, Upgrade-Insecure-Requests= 1, User-Agent= Mozilla/5.0 (X11; Linux x86_64; rv, Connection= keep-alive, Host= 127.0.0.1, Accept-Language= zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2, Accept-Encoding= gzip, deflate}
+{password=pwd, name=listen}
+2018-08-29 20:29:18[ INFO ]服务器启动10086
+2018-08-29 20:29:20[ INFO ]建立连接：/127.0.0.1
+2018-08-29 20:29:20[ INFO ]GET /?name=listen&password=pwd HTTP/1.1
+{Accept= text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8, Upgrade-Insecure-Requests= 1, User-Agent= Mozilla/5.0 (X11; Linux x86_64; rv, Connection= keep-alive, Host= 127.0.0.1, Accept-Language= zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2, Accept-Encoding= gzip, deflate}
+{password=pwd, name=listen}
+2018-08-29 20:29:35[ INFO ]服务器启动10086
+2018-08-29 20:29:38[ INFO ]建立连接：/127.0.0.1
+2018-08-29 20:29:38[ INFO ]GET /?name=listen&password=pwd HTTP/1.1
+{Accept= text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8, Upgrade-Insecure-Requests= 1, User-Agent= Mozilla/5.0 (X11; Linux x86_64; rv, Connection= keep-alive, Host= 127.0.0.1, Accept-Language= zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2, Accept-Encoding= gzip, deflate}
+{password=pwd, name=listen}
