@@ -9,37 +9,56 @@ import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 
 public class ServletExecutor {
-    public void run(LeeHttpRequest request,LeeHttpResponse response) throws ClassNotFoundException, IllegalAccessException, InstantiationException, NoSuchMethodException, InvocationTargetException {
+
+    public String findPath(String servletUri) {
+        String servletName = ServletLoader.servletMappingMap.get(servletUri);
+        if (servletName == null) {
+            return "null";
+        }
+        String servletPath = ServletLoader.servletClassMap.get(servletName);
+        if (servletPath == null) {
+            return "null";
+        }
+        return servletPath;
+    }
+
+    public void run(LeeHttpRequest request, LeeHttpResponse response) throws ClassNotFoundException, IllegalAccessException, InstantiationException, NoSuchMethodException, InvocationTargetException {
         MyClassLoader classLoader = new MyClassLoader(ConfigReader.servletPath);
-        Class clazz = classLoader.findClass("HelloWorld.HelloWorld");
+        String servletPath = findPath(request.getHeader().getUri());
+        if(servletPath.equals("null")){
+            return;
+        }
+        Class clazz = classLoader.findClass(servletPath);
         Object servelt = clazz.newInstance();
-        Method method = clazz.getDeclaredMethod("doGet",new Class[]{LeeHttpRequest.class,LeeHttpResponse.class});
-        method.invoke(servelt,request,response);
+        Method method = clazz.getDeclaredMethod("doGet", new Class[]{LeeHttpRequest.class, LeeHttpResponse.class});
+        method.invoke(servelt, request, response);
     }
 
     public void runHttp(LeeHttpRequest request, LeeHttpResponse response) throws IOException {
         ByteArrayOutputStream out = response.getOutputStream();
         byte[] bytes = new byte[1024];
-        if(request.getHeader().getUri().equals("/")){
-            FileInputStream in = new FileInputStream(ConfigReader.httpPath+"/index.html");
+        if (request.getHeader().getUri().equals("/")) {
+            FileInputStream in = new FileInputStream(ConfigReader.httpPath + "/index.html");
             int readNum;
-            while((readNum=in.read(bytes))>0){
-                out.write(bytes,0,readNum);
-                if(readNum<bytes.length){
+            while ((readNum = in.read(bytes)) > 0) {
+                out.write(bytes, 0, readNum);
+                if (readNum < bytes.length) {
                     break;
                 }
             }
             out.flush();
-        }else{
-            FileInputStream in = new FileInputStream(ConfigReader.httpPath+request.getHeader().getUri());
+            out.close();
+        } else {
+            FileInputStream in = new FileInputStream(ConfigReader.httpPath + request.getHeader().getUri());
             int readNum;
-            while((readNum=in.read(bytes))>0){
-                out.write(bytes,0,readNum);
-                if(readNum<bytes.length){
+            while ((readNum = in.read(bytes)) > 0) {
+                out.write(bytes, 0, readNum);
+                if (readNum < bytes.length) {
                     break;
                 }
             }
             out.flush();
+            out.close();
         }
     }
 }

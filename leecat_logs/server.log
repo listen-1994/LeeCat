@@ -114,3 +114,77 @@ null
 2018-08-30 20:24:11[ INFO ]GET /webApps/web.xml HTTP/1.1
 {Accept= text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8, Upgrade-Insecure-Requests= 1, User-Agent= Mozilla/5.0 (X11; Linux x86_64; rv, Connection= keep-alive, Host= 127.0.0.1, Accept-Language= zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2, Accept-Encoding= gzip, deflate}
 
+2018-08-30 20:27:52[ INFO ]服务器启动10086
+2018-08-30 20:27:56[ INFO ]建立连接：/127.0.0.1
+2018-08-30 20:27:56[ INFO ]GET / HTTP/1.1
+{Accept= text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8, Upgrade-Insecure-Requests= 1, User-Agent= Mozilla/5.0 (X11; Linux x86_64; rv, Connection= keep-alive, Host= 127.0.0.1, Accept-Language= zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2, Accept-Encoding= gzip, deflate}
+
+2018-08-30 20:28:09[ INFO ]建立连接：/127.0.0.1
+2018-08-30 20:28:09[ INFO ]GET /test.html HTTP/1.1
+{Accept= text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8, Upgrade-Insecure-Requests= 1, User-Agent= Mozilla/5.0 (X11; Linux x86_64; rv, Connection= keep-alive, Host= 127.0.0.1, Accept-Language= zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2, Accept-Encoding= gzip, deflate}
+
+2018-08-30 20:28:26[ INFO ]建立连接：/127.0.0.1
+2018-08-30 20:28:26[ INFO ]GET /425/425.html HTTP/1.1
+{Accept= text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8, Upgrade-Insecure-Requests= 1, User-Agent= Mozilla/5.0 (X11; Linux x86_64; rv, Connection= keep-alive, Host= 127.0.0.1, Accept-Language= zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2, Accept-Encoding= gzip, deflate}
+
+2018-08-30 20:30:28[ INFO ]服务器启动10086
+2018-08-30 20:30:40[ INFO ]建立连接：/127.0.0.1
+2018-08-30 20:30:40[ INFO ]GET / HTTP/1.1
+{Accept= text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8, Upgrade-Insecure-Requests= 1, User-Agent= Mozilla/5.0 (X11; Linux x86_64; rv, Connection= keep-alive, Host= 127.0.0.1, Accept-Language= zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2, Accept-Encoding= gzip, deflate}
+
+2018-08-30 20:30:40[ DEBUG ]Socket is closed
+2018-08-30 20:31:28[ INFO ]服务器启动10086
+2018-08-30 20:31:29[ INFO ]建立连接：/127.0.0.1
+2018-08-30 20:31:30[ INFO ]GET / HTTP/1.1
+{Accept= text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8, Upgrade-Insecure-Requests= 1, User-Agent= Mozilla/5.0 (X11; Linux x86_64; rv, Connection= keep-alive, Host= 127.0.0.1, Accept-Language= zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2, Accept-Encoding= gzip, deflate}
+
+2018-08-30 20:31:35[ INFO ]建立连接：/127.0.0.1
+2018-08-30 20:31:35[ INFO ]GET /test.html HTTP/1.1
+{Accept= text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8, Upgrade-Insecure-Requests= 1, User-Agent= Mozilla/5.0 (X11; Linux x86_64; rv, Connection= keep-alive, Host= 127.0.0.1, Accept-Language= zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2, Accept-Encoding= gzip, deflate}
+
+2018-08-30 20:31:45[ INFO ]建立连接：/127.0.0.1
+2018-08-30 20:31:45[ INFO ]GET /425/425.html HTTP/1.1
+{Accept= text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8, Upgrade-Insecure-Requests= 1, User-Agent= Mozilla/5.0 (X11; Linux x86_64; rv, Connection= keep-alive, Host= 127.0.0.1, Accept-Language= zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2, Accept-Encoding= gzip, deflate}
+
+2018-08-30 20:35:46[ INFO ]建立连接：/127.0.0.1
+2018-08-30 20:35:46[ INFO ]GET /test.html HTTP/1.1
+{Accept= text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8, Upgrade-Insecure-Requests= 1, User-Agent= Mozilla/5.0 (X11; Linux x86_64; rv, Connection= keep-alive, Host= 127.0.0.1, Accept-Language= zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2, Accept-Encoding= gzip, deflate}
+
+2018-08-30 20:36:01[ INFO ]建立连接：/127.0.0.1
+2018-08-30 20:36:01[ INFO ]GET /425/425.html HTTP/1.1
+{Accept= text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8, Upgrade-Insecure-Requests= 1, User-Agent= Mozilla/5.0 (X11; Linux x86_64; rv, Connection= keep-alive, Host= 127.0.0.1, Accept-Language= zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2, Accept-Encoding= gzip, deflate}
+
+2018-08-30 20:38:36[ INFO ]建立连接：/127.0.0.1
+2018-08-30 20:38:36[ INFO ]GET /index.html HTTP/1.1
+{Accept= text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8, Upgrade-Insecure-Requests= 1, User-Agent= Mozilla/5.0 (X11; Linux x86_64; rv, Connection= keep-alive, Host= 127.0.0.1, Accept-Language= zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2, Accept-Encoding= gzip, deflate}
+
+2018-08-30 20:47:38[ INFO ]服务器启动10086
+2018-08-30 20:47:42[ INFO ]建立连接：/127.0.0.1
+2018-08-30 20:47:42[ INFO ]GET / HTTP/1.1
+{Accept= text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8, Upgrade-Insecure-Requests= 1, User-Agent= Mozilla/5.0 (X11; Linux x86_64; rv, Connection= keep-alive, Host= 127.0.0.1, Accept-Language= zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2, Accept-Encoding= gzip, deflate}
+
+2018-08-30 20:47:42[ INFO ]建立连接：/127.0.0.1
+2018-08-30 20:47:42[ INFO ]GET /cat.jpg HTTP/1.1
+{Accept= */*, User-Agent= Mozilla/5.0 (X11; Linux x86_64; rv, Referer= http, Connection= keep-alive, Host= 127.0.0.1, Accept-Language= zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2, Accept-Encoding= gzip, deflate}
+
+2018-08-30 20:48:37[ INFO ]建立连接：/127.0.0.1
+2018-08-30 20:48:37[ INFO ]GET /cat.jpg HTTP/1.1
+{Accept= text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8, Upgrade-Insecure-Requests= 1, User-Agent= Mozilla/5.0 (X11; Linux x86_64; rv, Connection= keep-alive, Host= 127.0.0.1, Accept-Language= zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2, Accept-Encoding= gzip, deflate}
+
+2018-08-30 20:53:26[ INFO ]建立连接：/127.0.0.1
+2018-08-30 20:53:26[ INFO ]GET / HTTP/1.1
+{Accept= text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8, Upgrade-Insecure-Requests= 1, User-Agent= Mozilla/5.0 (X11; Linux x86_64; rv, Connection= keep-alive, Host= 127.0.0.1, Accept-Language= zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2, Accept-Encoding= gzip, deflate}
+
+2018-08-30 20:53:26[ INFO ]建立连接：/127.0.0.1
+2018-08-30 20:53:26[ INFO ]GET /cat.jpg HTTP/1.1
+{Accept= */*, User-Agent= Mozilla/5.0 (X11; Linux x86_64; rv, Referer= http, Connection= keep-alive, Host= 127.0.0.1, Accept-Language= zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2, Accept-Encoding= gzip, deflate}
+
+2018-08-30 20:53:55[ INFO ]建立连接：/127.0.0.1
+2018-08-30 20:53:55[ INFO ]GET / HTTP/1.1
+{Accept= text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8, Upgrade-Insecure-Requests= 1, User-Agent= Mozilla/5.0 (X11; Linux x86_64; rv, Connection= keep-alive, Host= 127.0.0.1, Accept-Language= zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2, Accept-Encoding= gzip, deflate}
+
+2018-08-30 20:53:55[ INFO ]建立连接：/127.0.0.1
+2018-08-30 20:53:55[ INFO ]GET /cat.jpg HTTP/1.1
+{Accept= */*, User-Agent= Mozilla/5.0 (X11; Linux x86_64; rv, Referer= http, Connection= keep-alive, Host= 127.0.0.1, Accept-Language= zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2, Accept-Encoding= gzip, deflate}
+
+2018-08-30 21:36:57[ INFO ]服务器启动10086

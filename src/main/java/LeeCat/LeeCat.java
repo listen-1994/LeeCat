@@ -1,3 +1,5 @@
+package LeeCat;
+
 import Config.ConfigReader;
 import Server.LeeCatServer;
 import Server.ServerExecutor;

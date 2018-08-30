@@ -4,7 +4,6 @@ import Http.Builder.HttpRequestBuilder;
 import Http.Builder.HttpResponseBuilder;
 import Http.Request.LeeHttpRequest;
 import Http.Response.LeeHttpResponse;
-import Servlet.HttpServlet;
 import Servlet.ServletExecutor;
 import Servlet.ServletLoader;
 import org.apache.log4j.Logger;
@@ -49,7 +48,7 @@ public class SocketExecutor implements Runnable {
             }
             HttpResponseBuilder.buildHeader(response);
             sendResponse(response, socket.socket());
-
+            socket.close();
         } catch (Exception e) {
             e.printStackTrace();
             log.debug(e.getMessage());
