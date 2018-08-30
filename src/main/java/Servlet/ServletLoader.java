@@ -18,7 +18,7 @@ public class ServletLoader {
     public static HashMap<String, String> servletClassMap = new HashMap<>();
     public static HashMap<String, String> servletMappingMap = new HashMap<>();
 
-    public void startup() throws ParserConfigurationException, IOException, SAXException {
+    public static void startup() throws ParserConfigurationException, IOException, SAXException {
         DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
         DocumentBuilder builder = factory.newDocumentBuilder();
 

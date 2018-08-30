@@ -22,6 +22,7 @@ public class HttpRequestBuilder {
         HttpRequestHeader requestHeader = new RequestHeaderBuilder(header).build();
         if (requestHeader.getMethod().equals("GET") && requestHeader.getUri().contains("?")) {
             String body = requestHeader.getUri().split("[?]")[1];
+            requestHeader.setUri(requestHeader.getUri().split("[?]")[0]);
             requestBody = new RequestBodyBuilder(body).build();
         } else if (requests.length > 1) {
             String body = requests[1];

@@ -11,6 +11,7 @@ public class ConfigReader {
     public static final String CONFIGFILE = "leecat.config";
     public static String port = "10086";
     public static String servletPath = "ROOT/webApps";
+    public static String httpPath = "ROOT";
 
     public static void readConfig() throws IOException, NoSuchFieldException, IllegalAccessException {
         Properties pro = new Properties();
