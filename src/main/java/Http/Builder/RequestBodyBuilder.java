@@ -10,6 +10,9 @@ public class RequestBodyBuilder {
     public RequestBodyBuilder(String a_body) {
         this.body = a_body;
     }
+    public RequestBodyBuilder(){
+
+    }
 
     public HttpRequestBody build() {
         HttpRequestBody requestBody = new HttpRequestBody();
@@ -17,6 +20,11 @@ public class RequestBodyBuilder {
         for (int i = 0; i < parameters.length; i++) {
             requestBody.setParameter(parameters[i].split("=")[0],parameters[i].split("=")[1]);
         }
+        return requestBody;
+    }
+
+    public HttpRequestBody build(byte[] bodyByte,String boundary){
+        HttpRequestBody requestBody = new HttpRequestBody();
         return requestBody;
     }
 

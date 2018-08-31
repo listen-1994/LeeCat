@@ -45,4 +45,8 @@ public class HttpRequestHeader {
         return method+" "+uri+" "+protocolVersion+"\n"
                 +header.toString();
     }
+
+    public String getHeader(String key){
+        return this.header.get(key);
+    }
 }

@@ -29,12 +29,13 @@ public class SocketExecutor implements Runnable {
     public void run() {
         try {
             int bytesRead = socket.read(byteBuffer);
+            //这里要解决很长很长请求的问题
             boolean isReadEnd = bytesRead < BUFFERSIZE;
             byteBuffer.flip();
             byte[] bytes = new byte[byteBuffer.remaining()];
             byteBuffer.get(bytes, 0, bytes.length);
 
-            LeeHttpRequest request = new HttpRequestBuilder(new String(bytes)).build(socket.socket());
+            LeeHttpRequest request = new HttpRequestBuilder(bytes).build(socket.socket());
             log.info(request.toString());
             LeeHttpResponse response = new LeeHttpResponse();
 

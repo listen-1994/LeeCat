@@ -18,9 +18,9 @@ public class RequestHeaderBuilder {
         header.setProtocolVersion(requesLine[2]);
 
 
-        for(int i = 1;i<headers.length;i++){
+        for (int i = 1; i < headers.length; i++) {
             String[] keyValue = headers[i].split(":");
-            header.setHeader(keyValue[0],keyValue[1]);
+            header.setHeader(keyValue[0].trim(), keyValue[1].trim());
         }
 
         return header;

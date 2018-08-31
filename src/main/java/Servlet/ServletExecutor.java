@@ -38,6 +38,7 @@ public class ServletExecutor {
         ByteArrayOutputStream out = response.getOutputStream();
         byte[] bytes = new byte[1024];
         if (request.getHeader().getUri().equals("/")) {
+            request.getHeader().setUri("/index.html");
             FileInputStream in = new FileInputStream(ConfigReader.httpPath + "/index.html");
             int readNum;
             while ((readNum = in.read(bytes)) > 0) {
@@ -59,6 +60,9 @@ public class ServletExecutor {
             }
             out.flush();
             out.close();
+        }
+        if(request.getHeader().getUri().endsWith(".html")){
+            response.getHeader().setHeader("Content-Type","text/html;charset=utf-8");
         }
     }
 }
