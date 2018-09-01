@@ -10,4 +10,5 @@ public abstract class HttpServlet {
 
     public abstract void doGet(LeeHttpRequest request, LeeHttpResponse response);
 
+    public abstract void doPost(LeeHttpRequest request,LeeHttpResponse response);
 }

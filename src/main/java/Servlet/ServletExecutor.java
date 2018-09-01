@@ -30,8 +30,13 @@ public class ServletExecutor {
         }
         Class clazz = classLoader.findClass(servletPath);
         Object servelt = clazz.newInstance();
-        Method method = clazz.getDeclaredMethod("doGet", new Class[]{LeeHttpRequest.class, LeeHttpResponse.class});
-        method.invoke(servelt, request, response);
+        if(request.getHeader().getMethod().equals("GET")){
+            Method method = clazz.getDeclaredMethod("doGet", new Class[]{LeeHttpRequest.class, LeeHttpResponse.class});
+            method.invoke(servelt, request, response);
+        }else if(request.getHeader().getMethod().equals("POST")){
+            Method method = clazz.getDeclaredMethod("doPost", new Class[]{LeeHttpRequest.class, LeeHttpResponse.class});
+            method.invoke(servelt, request, response);
+        }
     }
 
     public void runHttp(LeeHttpRequest request, LeeHttpResponse response) throws IOException {
