@@ -1,0 +1,16 @@
+<html>
+<form action="/Hello" method="post">
+    <p>Name: <input type="text" name="name"/></p>
+    <p>Password: <input type="text" name="password"/></p>
+    <input type="submit" value="Submit"/>
+</form>
+
+<form action="/Hello" method="post" enctype="multipart/form-data">
+
+    <input type="file" name="fileUpload" />
+    <p>Name: <input type="text" name="name"/></p>
+    <p>Password: <input type="text" name="password"/></p>
+    <input type="submit" value="上传文件" />
+
+</form>
+</html>
